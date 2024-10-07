@@ -1,0 +1,50 @@
+body {
+    font-family: monospace;
+    font-size: 13px;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    border: 1px solid #000;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    background-color: #FF76E2;
+}
+
+.container-profile {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+    display: inline-block;
+    position: relative;
+
+}
+
+.container-profile img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -20px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.right {
+    width: 70%;
+    float: left;
+    padding: 0px 20px;
+}
